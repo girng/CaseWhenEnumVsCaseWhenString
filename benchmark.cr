@@ -54,102 +54,134 @@ Benchmark.ips do |x|
 end
 
 def handle_xfer
+  "test"
 end
 
 def handle_update_inv
+  "test"
 end
 
 def handle_eq_item
+  "test"
 end
 
 def handle_filler1
+  "test"
 end
 
 def handle_filler2
+  "test"
 end
 
 def handle_filler3
+  "test"
 end
 
 def handle_filler4
+  "test"
 end
 
 def handle_filler5
 end
 
 def handle_filler6
+  "test"
 end
 
 def handle_filler7
+  "test"
 end
 
 def handle_filler8
+  "test"
 end
 
 def handle_filler9
+  "test"
 end
 
 def handle_filler10
+  "test"
 end
 
 def handle_filler11
+  "test"
 end
 
 def handle_filler12
+  "test"
 end
 
 def handle_filler13
+  "test"
 end
 
 def handle_filler14
+  "test"
 end
 
 def handle_filler15
+  "test"
 end
 
 def handle_filler16
+  "test"
 end
 
 def handle_filler17
+  "test"
 end
 
 def handle_filler18
+  "test"
 end
 
 def handle_filler19
+  "test"
 end
 
 def handle_filler20
+  "test"
 end
 
 def handle_filler21
+  "test"
 end
 
 def handle_filler22
+  "test"
 end
 
 def handle_filler23
+  "test"
 end
 
 def handle_filler24
+  "test"
 end
 
 def handle_filler25
+  "test"
 end
 
 def handle_filler26
+  "test"
 end
 
 def handle_filler27
+  "test"
 end
 
 def handle_filler28
+  "test"
 end
 
 def handle_filler29
+  "test"
 end
 
 def handle_filler30
+  "test"
 end
 
 def case_when_enum
