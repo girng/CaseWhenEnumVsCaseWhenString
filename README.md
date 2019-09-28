@@ -13,4 +13,6 @@ Benchmark to compare the performance difference between case when checking an en
 
 ## Contribution
 
-Feel free to contribute to make the benchmark better! All PRs are welcome!
+Feel free to contribute to make the benchmark better! All PRs are welcome.
+
+Thanks for reading, and have a wonderful day!
