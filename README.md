@@ -1,6 +1,6 @@
 # CaseWhenEnumVsCaseWhenString
 
-Benchmark to compare the performance difference between case when checking an enum value, as compared to case when checking a string. This is a benchmark script for https://crystal-lang.org/ 
+Benchmark to compare the performance difference between case when checking an enum value, as compared to case when checking a string. This is a benchmark script using https://crystal-lang.org/ 
 
 
 ## Usage
