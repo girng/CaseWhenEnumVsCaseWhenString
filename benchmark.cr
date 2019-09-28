@@ -40,6 +40,9 @@ end
 # CREATE CONSTANTS SO THE TESTING BENCHMARK IS FAIR when rand picks a COMMAND!
 # The purpose is to simulate  a real game server as commands might come in randomly.
 
+# Enable this to use a constant value when case when checking, not .shuffle
+USE_CONSTANT_VALUE_NOT_A_RANDOM_ONE = true
+
 STRING_COMMANDS = CMD.names
 
 CMD_INDEX_VALUES = Array(Int32).new
@@ -186,7 +189,11 @@ end
 
 def case_when_enum
   # Pick a random ENUM
-  cmd = CMD.from_value CMD_INDEX_VALUES.shuffle[0]
+  if USE_CONSTANT_VALUE_NOT_A_RANDOM_ONE
+    cmd = CMD.from_value 5
+  else
+    cmd = CMD.from_value CMD_INDEX_VALUES.shuffle[0]
+  end
 
   case cmd
   when CMD::XFER
@@ -260,7 +267,12 @@ end
 
 def case_when_string
   # PICK  A RANDOM STRING COMMAND
-  cmd = CMD.names.shuffle[0]
+  if USE_CONSTANT_VALUE_NOT_A_RANDOM_ONE
+    cmd = "FILLER15"
+  else
+    cmd = CMD.names.shuffle[0]
+  end
+
   case cmd
   when "XFER"
     handle_xfer()
